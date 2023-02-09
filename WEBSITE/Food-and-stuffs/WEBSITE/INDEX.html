@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>LITTLE NIGHTMARE</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet"href="">
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            background-color: lightseagreen;
+            color: azure;
+            font-size: larger;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-weight:bold;
+        }
+        h1{
+            color:fuchsia
+        }
+        h2{
+            color:mediumvioletred
+        }
+        h3{
+            color:lightpink
+        }
+        h4{
+            color:palevioletred
+        }
+        h5{
+            color:rgb(255, 247, 251)
+        }
+        h6{
+            color:pink
+        }
+        .step{
+            color:black
+        }
+        #dorthy{
+            color:#5ff6e473
+        }
+        .text{
+            color:rgb(2, 45, 50);
+        }
+        .navbar{
+            background-color: #ffffffea;
+            padding: 10px 14px;
+        }
+        a{
+            color: rgb(122, 17, 243); 
+            text-decoration-line: none;
+            padding: 6px 10px;
+            
+        }
+        .navbar :hover{
+            background-color: #ffffffea;
+        }
+        .dog{
+            background-image: url(kaneki.jpg);
+            height:700px;
+            width:100%;
+            background-size: cover;
+            padding:10px;
+        }
+        .co{
+            text-align: center;
+        }
+        /* simple selector is under internal styling and its done under head using a style tage, and class is to identify an element :target
+        like for example you have two h1 and you need to specify one, you put class in that h1 like h1 class="name" to specify it,
+        and when using the class under the head tage you must put.(the name you used, no bracket). Remember dot is used
+        to repesent class while ash(#) is used to represent id */
+    </style>
+
+<!-- 
+    to create an icon you go to put and image in the folder your webpage coding is, put it in paint to resize 52x52 save as favicon.png
+    in the website folder then the code for icon involves link rel and href.e.g we used link like link="icon"href="the image name" -->
+    <link rel="icon" href="favicon.png">
+  
+</head>
+<body>
+    <div class="navbar">
+        <a href="">home</a>
+        <a href="#services">services</a>
+        <a href="">About us</a>
+        <a href="">contact us</a>
+    
+    </div>
+   
+  
+   <h2>Stephen</h2>
+   <h3>Stephen</h3>
+   <h4>Stephen</h4>
+   <h5>Stephen</h5>
+   <h6>Stephen</h6> 
+   <h1 class="fr">frog</h1>
+   <h1>horse</h1>
+<img src="image/reflect.jpg">
+   <hr>
+
+   <marquee><h1>STEPHEN</h1></marquee>
+   <b>Lota</b> <br><br>
+   <i>House</i>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Voluptatibus illo qui at animi,<br> 
+    expedita quia aperiam architecto laboriosam magnam eius repellat quas velit<br> facere minus ab totam 
+    officia recusandae doloremque!
+    <mark>Stephen</mark>
+
+   </p>
+   <p id="dorthy">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, iusto? Recusandae dolorem, 
+       sunt illo officiis enim dolores facilis deserunt fuga tempore corrupti rem! Ipsum earum ea magnam
+        ab similique iusto voluptatem ut animi voluptas ducimus, delectus facere, doloribus molestias itaque quod. 
+        Ratione, provident quasi. Quibusdam quaerat doloribus necessitatibus sint aut.
+        <mark>quasi</mark>
+    </p>
+    <u>Stephen</u><br>
+    200<sup>4</sup><br>
+    2<sub>4</sub>
+    <h1>1<sup>st</sup></h1>
+    <strong>My name is Ohanugo Stephen</strong>
+    <!-- The address tag is
+         used for an adress -->
+    <div>Stephen,<address><h4> 9 Malik Ohanugo street, Divine Homes,<br> Ajah,<br> Lekki,<br> Lagos.</address></div></h4>>
+
+    <!-- "a" is an anchor tag that uses url, here we are refrencing a the new page we created -->
+    <a href="About_Us.html">Click Here</a>
+
+    <!-- The anchor tag is to refrence an external url, meaning with internet --><br>
+    <!-- To open link in next page, after href="" put target="_blank" -->
+    <a href="https://www.youtube.com/watch?v=PbdeHoDJZIE"target="_blank">Click Football</a><br>
+
+
+    <!-- using an anchor tag to create a link to download a document we use download instead of target -->
+    <p>This to download the sql note.</p>
+    <a style="text-decoration-line: none"href="SQL Lectures.pdf"target="_blank"download>Click to download</a>
+
+    <!-- you can use text-decoration-line:none to remove lines from links -->
+
+    <!-- ol is an ordered list that list items in an orderly manner like 1., 2., 3. etc -->
+    <ol><li>fish</li><li>hen</li><li>horse</li><li>rat</li></ol><br>
+
+    <!-- ul is uses dot to list the items -->
+    <ul><li>fish</li><li>hen</li><li>onions</li><li>rick</li><li>tree</li><li>tadpole</li><li>goat</li><li>pick</li><li>horse</li></ul>
+    <br>
+
+    <!-- dl mean descriptive list, dt means descriptive title and dd means descriptive data(the body) -->
+    <dl><dt>Aptech</dt><dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil doloremque perferendis eius,
+         autem quisquam laudantium ea reprehenderit rem voluptate, laboriosam earum voluptatibus qui minus commodi at ratione
+          molestias asperiores repellendus, pariatur ullam maiores reiciendis tempore quaerat ipsum! Aliquid cum incidunt
+           tenetur, autem officia in deserunt enim ad ipsa et dicta distinctio placeat ratione illo, quasi sed odit molestiae
+            inventore alias. Quae numquam eaque commodi, quas enim et, vitae quam ut tempore accusantium ipsum necessitatibus
+             corrupti reiciendis, blanditiis officiis amet. Nesciunt.
+
+    </dd></dl>
+
+    <!-- images are alway written as img src="", src means source, alt=""is used for when you dont 
+        have the internet, i displays img -->
+
+    <img src="kaneki.jpg"alt="anime character"width="500px"height="500px">
+    <!-- adding image to our website through external source -->
+    <img src="https://images.unsplash.com/photo-1672661164570-d5e7e0890a69?ixlib=rb-4.0.3&ixid=Mnw
+    xMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"alt="house"width="500px"height="500px">
+
+    <!-- use google photos for uploading photo so as incase of the original websites removes photo from their site -->
+
+<img src="https://lh3.googleusercontent.com/JuJxBeMBz9ZI3AS0GBtnDlh_au0RwejNxPC6XeGzH4q_A-NcvqqdekYpnr
+-PR-XNlMo4G7-Ip8GSEIOkhZhGY4fpkHQT00e94MccHwLX_XbC47CpZFz0KmTADdqxs7nKAsOj_XY1xTXULAwfLlIuQ8-7i4uJN6Cm31QK3xAapxXqF8Dw6
+ySeRN1tJ6RFwP3CuSVdN0Bm-SirNwjORn4l31WbbR3yOe4pEBNSV3J6Ss-Qv06BJVacHOgEGZnBVenzOzM2ihQERvHd1b0wdr8wekB7wVqm6MOsspMAx2ZEi
+dPByGhSMIB9jcA9fW7NRorsVXmk3LPThYTaYz5vntxM2Ir_S4O9fKVFnk_P65WRwDwF3sNttVXUUx69WNiiS5UswOhYkq3D_TE1yo-mdHh5a5BBwyOkXap4f
+vaOhHDKp0BEIZcj9ILGeTZR9dpXtnFaWCmX6hqKEtSww6Me4PF-pi0ybuD63ymTeXZdCcJMQBCAHF5Sd1dSkp0FELmRscgKM7Yc6oDPvx7k5xX_8PJBtzbGw
+vx4mVbCXiKCO8czesgubOvbGoOMg_iw8I0CNH_9DleyVRJPPwVxOAdQX3OKiKgtQoNbZIi6SkqHG8w6PXywe2SHE3piXXdzr8RVY45zU0AUiAxYIbyrU0LDH
+4VjkubMAYGVn7ku2rXkElIbCRBIHvhAhp--PzSmHasFGnALGMS9O8JpkE4YsXfXUfH4vNmL4daJtQ6oeaGVybxzmRwdC9ynEsA6YPPhwSqsSRyJdwqOvQRNi
+xiqeTyiXDJGDgMyxEzlLJDof1c330iGCne31swMhwKBonjZw_gctJ9jwfaQsxE7-F5Oc2VHtU_LwBUlEBSUuXq_BvQ-FZPZtuO4m8agKJpdE2fY27rgC6wej
+de24g6iPkh0vGfHqidKYPOqHFJ00IayWxN6O-CKg-yHqCw=w1138-h828-no?authuser=0"width="500px"height="500px">
+<img src="little nightmare.jpg"type="image/jpg"width="500"height="500"><br>
+
+<!-- just like image you need a type in the src(source),type="video/mp4", you dont really need the type, its just to 
+tell the readrs that its a mp4 type video -->
+
+<!-- attributes include target="_blank,alt="name,download, type="either video, music, image/type(mp4,png,jpg,mp3)" -->
+<video controls src="slaps.mp4"width="100%"height="600"></video>
+
+<!-- to put an external video in your webpage, youtube for instance, you must have your channel,
+     then go to a video of ur choice
+ and click share, embedded, copy and paste on visual studio -->
+ <!-- to writenon your own you need (iframe,width,height, src, the title of the vid,the rest is to be copied -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3VRqQOHgUrY" title="YouTube video player"
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+ web-share" allowfullscreen></iframe><br>
+
+ <!-- this one is tricky, type audio controls, (source src and the audio file), for video you dont need to put (source src instead you put 
+ (video conrtrols src="")(/video) -->
+ <audio controls>
+    <source src="cushy.mp3">
+</audio>
+<table border="1"width="100%">
+    <tr><TH>S/N</TH>
+    <TH>NAME</TH>
+    <TH>AGE</TH>
+</tr>
+<tr><TH>1</TH>
+    <TH>stephen</TH>
+    <TH>19</TH>
+    <tr><TH>2</TH>
+        <TH>Favour</TH>
+        <TH>20</TH>
+    </tr>
+    <tr><TH>3</TH>
+        <TH>Chisom</TH>
+        <TH>19</TH></tr>
+        <tr><TH>4</TH>
+            <TH>Zenith</TH>
+            <TH>30</TH>
+        </tr>
+        <tr><TH>4</TH>
+            <TH>step</TH>
+            <TH>19</TH>
+            <tr><TH>5</TH>
+                <TH>Fred</TH>
+                <TH>20</TH>
+            </tr>
+            <tr><TH>6</TH>
+                <TH>Chisomaga</TH>
+                <TH>19</TH></tr>
+
+</table><br><br>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3892.1407849896277!2d3.6247094147180006!3d6.4697922953196
+!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf9bc4d0eed19%3A0xa7a59a1f8f103a4f!2sAptech%20Computer%20Education!5e
+1!3m2!1sen!2sng!4v1675240658448!5m2!1sen!2sng"
+ width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ <br><br>
+ <!-- Smartsupp Live Chat script
+<script type="text/javascript">
+    var _smartsupp = _smartsupp || {};
+    _smartsupp.key = '29a11fa8a427a8ce32b9c25d17577fcd90d10a8c';
+    window.smartsupp||(function(d) {
+      var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+      s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+      c.type='text/javascript';c.charset='utf-8';c.async=true;
+      c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+    })(document);
+    </script><br> -->
+
+<!--Start of Tawk.to Script-->
+<!-- <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/63da2e2a474251287910d320/1go648log';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script> -->
+    <!--End of Tawk.to Script-->
+
+    <!-- getbutton.io, select watsapp, put your watsapp no, for customization change position to left, then add your email address,
+     click beta code, copy code and then paste on visual code
+    except you've paid you cant change company logo, or url, when you run the code to your webpage you must upload it on 
+    netlify so it can be updated on your browser,go to deploy on netlify and upload.
+    go to extention and type live server,install it to help connect your browser and coding on the same page. -->
+    <!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+234(706)998-72-57", // WhatsApp number
+            call_to_action: "Message us", // Call to action
+            button_color: "#FF6550", // Color of button
+            position: "left", // Position may be 'right' or 'left'
+        };
+        var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src =
+         url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<div style="background-color:black;color:azure;height:800px;background-image:url(kaneki.jpg);background-size:cover;
+ background-attachment: fixed;"><p>Lorem ipsum dolor sit amet 
+    consectetur adipisicing elit. Fuga nesciunt 
+    eos inventore, facilis quae rerum, quisquam quos eius sapiente, nam quia? Corporis animi vitae magnam voluptas exercitationem 
+    repellendus perspiciatis. Cum.</p>
+</div>
+<h1 class="step">stephen</h1>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit libero numquam accusamus iusto laborum sint aut atque error officia 
+    neque eaque veniam quidem dicta repellendus expedita, odio ducimus, quasi explicabo accusantium. Dolorem, voluptates. Consequuntur
+     earum ducimus adipisci. Nihil facere modi ipsam eius praesentium, ab maxime sequi. Excepturi, ipsam autem. Facilis totam iste,
+      incidunt iure provident quas in itaque soluta nam quaerat nostrum autem voluptatum at aut omnis exercitationem! Molestias optio 
+      expedita id sed cumque omnis dolores accusantium doloribus nesciunt, nulla voluptatem aspernatur veniam eaque quaerat culpa?
+       Illo accusantium alias maiores minus? Velit quidem quis necessitatibus sequi aspernatur quo libero nulla.
+
+
+
+       
+</p>
+<!-- when using style attribute, the height or any of the atrribute must be typed after the column instead of the quotation and no
+ equals to just column -->
+
+<!-- /GetButton.io widget -->
+<!-- assignment -->
+<!-- make a research on how to use github and upload your work or folder that contains your work  -->
+
+<!-- THIS ARE ALLTHE ATRRIBUTE THAT IVE STUDIED SO FAR target=_blank,download,href=,colspan=,rowspan=,
+style=background-color:anycolor for the background;color:anycolor for your text;font-family:means font name,font-weight:
+means boid,alt=name(its done in either image,video or audio, if you dont have data then it will just show img),
+width=,height=,rel=icon,border=(tabular line),
+style="background-image:url()"(its like href),background-size(just choose cover) background-attachment:fixed 
+(means to even if you scroll,your background wouldnt change)
+  -->
+  
+  <h1 style="background-color:black ;text-align: center; text-transform: uppercase; text-decoration: underline; text-decoration-style: solid;
+   text-decoration-color: rgb(230, 0, 255); text-decoration-thickness: 100px; text-indent: 0; letter-spacing: 100px;
+   line-height: 0.8em; word-spacing:10px;">LOREK IS FUN</h1>
+  <!-- style=text align is to positon texts, while style=text tansform is to change text to uppercase,lowercase etc, you need to put text
+decoration line before putting text decoration style so taht style of the line, text decoration color is to color the line
+text decoration style:dotted makes text decoration thickness circular while using solid in style it makes thickness like box
+the title moves with the text decoration thickness so using text indent to move the thickness also moves the title
+text_spacing is used to specify the spaces of the characters in the texts, word-spacing is the amount space between words
+hover:is to hight text when you bring your mouse to it it is an attribute
+ -->
+  <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, animi? Ex, vel tempore. Ipsam quibusdam officia 
+    suscipit soluta vel non, dignissimos, tempora reprehenderit corporis quod provident eum nulla molestias natus, animi at minima
+     veritatis deleniti est architecto exercitationem beatae explicabo porro ab! Obcaecati quos, voluptatem, consequuntur ab
+      adipisci non quo perspiciatis qui animi omnis a pariatur fugiat ex, enim hic iusto recusandae delectus praesentium. Dolorem 
+      corporis at excepturi repellat commodi, ea nemo vel doloribus eveniet explicabo quaerat, adipisci illo aliquid sequi
+       placeat facilis dolore dolor aut harum ratione aspernatur! Quis, officia. Eius quos facilis consequuntur modi soluta 
+       fugiat, adipisci sint ad aperiam expedita cupiditate provident dolorum ex impedit minus sequi dolores! Quod atque iure 
+       cumque. Consequuntur perferendis quaerat praesentium, iure quod eos qui unde, consectetur culpa fugiat, reiciendis
+        blanditiis odio? Tempore sunt minus ipsum hic consequuntur et est laboriosam repudiandae doloremque impedit quasi nemo 
+        quam doloribus, praesentium modi itaque natus aliquam suscipit? Omnis voluptatum eaque assumenda accusamus quia quae quasi
+         earum minima natus aperiam blanditiis vel illum dolores rem eum modi culpa laudantium aliquid, dolorem eos expedita 
+         corporis a quaerat dolorum? Non magni perspiciatis illum odit, eos voluptates similique vitae exercitationem sit quibusdam!
+          Non corrupti rerum ab recusandae. Dicta, obcaecati!
+     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae itaque reprehenderit quas cupiditate dolor.
+     Minus saepe est adipisci, ad dicta quia sit explicabo consequatur, corporis ipsam modi nulla repudiandae delectus!lorem200
+
+</p>
+<!-- internal style uses syle tag and has 5 types of selectors which are, simple selector, combinator selector, psudo-class selector,
+     psudo-element selector, 
+attribute selector
+SIMPLE SELECTOR: This is type of selector to select an element tag, also give a class to an element also to uniquely identify an
+ element using an ID 
+we've started to learn colornaming, hexadecimal, rgb(red, green, blue)
+go to material resources.io,its for matching colors with each other, enter the website and at the the left
+home,services,aboutus,contactus-->
+
+
+
+<div class="dog"><p style="text-align: center;">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae recusandae optio unde suscipit in ratione dolor id 
+    labore. Repudiandae officiis non, facere porro corporis distinctio suscipit aut doloribus accusantium dicta!</p>
+    
+</div>
+
+<h1 class="co"id="services">services</h1>
+ 
+
+</body>
+</html>
